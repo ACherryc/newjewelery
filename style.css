@@ -86,6 +86,7 @@ body{
 }
 .all_departments{
     position: relative;
+    margin-right: auto;
     
     
     
@@ -221,4 +222,10 @@ body{
 }
 .nav-link li a:hover{
     color: goldenrod;
+}
+.space{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
